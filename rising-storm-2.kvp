@@ -9,12 +9,12 @@ Meta.DockerRequired=False
 Meta.ContainerPolicy=Supported
 Meta.ContainerPolicyReason=
 Meta.Prerequsites=[]
-Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$SteamQueryPort}
+Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$MainGamePort}
 App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=false
 App.DisplayName=Rising Storm 2
-App.CommandLineArgs={{$PlatformArgs}} Port={GenericModule.App.Ports.$MainGamePort} QueryPort={GenericModule.App.Ports.$SteamQueryPort} WebAdminPort={GenericModule.App.Ports.$WebPort} {{$FormattedArgs}}
+App.CommandLineArgs={{$PlatformArgs}} Port={{$MainGamePort}} QueryPort={{$SteamQueryPort}} WebAdminPort={{$WebPort}} {{$FormattedArgs}}
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat={0}="{1}"
 App.CommandLineParameterDelimiter= 
