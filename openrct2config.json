@@ -11,6 +11,18 @@
         "EnumValues":{}
     },
     {
+        "DisplayName":"Server IP Binding",
+        "Category":"OpenRCT2 Server Settings",
+        "Description":"",
+        "Keywords":"",
+        "FieldName":"$ApplicationIPBinding",
+        "InputType":"text",
+        "Hidden":true,
+        "ParamFieldName":"network.listen_address",
+        "IncludeInCommandLine":false,
+        "EnumValues":{}
+    },
+    {
         "DisplayName":"Player Name",
         "Category":"OpenRCT2 Server Settings",
         "Description":"",
@@ -440,17 +452,6 @@
         }
     },
     {
-        "DisplayName":"Server IP Binding",
-        "Category":"OpenRCT2 Server Settings",
-        "Description":"If required, you can change the IP binding of the server by editing App.ApplicationIPBinding in GenericModule.kvp for the instance. Default is 0.0.0.0 (all IPs). Stop the instance (not just the server) first",
-        "Keywords":"ip,binding,listen,address,listen_address",
-        "FieldName":"$ApplicationIPBinding",
-        "InputType":"hidden",
-        "ParamFieldName":"network.listen_address",
-        "IncludeInCommandLine":false,
-        "EnumValues":{}
-    },
-    {
         "DisplayName":"Server Release Version",
         "Category":"SteamCMD and Updates",
         "Description":"Sets the [server release version](https://github.com/OpenRCT2/OpenRCT2/releases) to install. NOTE: Update the server after switching versions",
@@ -458,8 +459,8 @@
         "FieldName":"ReleaseVersion",
         "InputType":"text",
         "ParamFieldName":"ReleaseVersion",
-        "DefaultValue":"0.4.6",
-        "Placeholder":"0.4.6",
+        "DefaultValue":"0.4.10",
+        "Placeholder":"0.4.10",
         "Required":true,
         "EnumValues":{}
     },
