@@ -15,6 +15,7 @@ Meta.ConfigManifest=rising-storm-2config.json
 Meta.MetaConfigManifest=rising-storm-2metaconfig.json
 Meta.ConfigRoot=rising-storm-2.kvp
 Meta.DisplayImageSource=steam:418460
+Meta.AppConfigId=1001ced1-57e7-48ca-a84d-defc12343b5f
 App.DisplayName=Rising Storm 2
 App.RootDir=./rising-storm-2/
 App.BaseDirectory=./rising-storm-2/418480/
