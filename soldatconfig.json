@@ -746,7 +746,7 @@
         "Description": "Number of bots in DM, PM and RM modes",
         "Keywords": "random,bots",
         "FieldName": "Random_Bots",
-        "InputType": "checkbox",
+        "InputType": "number",
         "IsFlagArgument": false,
         "ParamFieldName": "Random_Bots",
         "IncludeInCommandLine": false,
@@ -755,10 +755,7 @@
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
-        "EnumValues": {
-            "0": "False",
-            "1": "True"
-        }
+        "EnumValues": {}
     },
     {
         "DisplayName": "Random Bots Alpha",
@@ -766,7 +763,7 @@
         "Description": "Number of bots on Alpha in INF, CTF, HTF, PM and TM.",
         "Keywords": "random,bots",
         "FieldName": "Random_Bots_1",
-        "InputType": "checkbox",
+        "InputType": "number",
         "IsFlagArgument": false,
         "ParamFieldName": "Random_Bots_1",
         "IncludeInCommandLine": false,
@@ -775,10 +772,7 @@
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
-        "EnumValues": {
-            "0": "False",
-            "1": "True"
-        }
+        "EnumValues": {}
     },
     {
         "DisplayName": "Random Bots Bravo",
@@ -786,7 +780,7 @@
         "Description": "Number of bots on Bravo in INF, CTF, HTF, PM and TM.",
         "Keywords": "random,bots",
         "FieldName": "Random_Bots_2",
-        "InputType": "checkbox",
+        "InputType": "number",
         "IsFlagArgument": false,
         "ParamFieldName": "Random_Bots_2",
         "IncludeInCommandLine": false,
@@ -795,10 +789,7 @@
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
-        "EnumValues": {
-            "0": "False",
-            "1": "True"
-        }
+        "EnumValues": {}
     },
     {
         "DisplayName": "Random Bots Charlie",
@@ -806,7 +797,7 @@
         "Description": "Number of bots on Charlie in INF, CTF, HTF, PM and TM.",
         "Keywords": "random,bots",
         "FieldName": "Random_Bots_3",
-        "InputType": "checkbox",
+        "InputType": "number",
         "IsFlagArgument": false,
         "ParamFieldName": "Random_Bots_3",
         "IncludeInCommandLine": false,
@@ -815,10 +806,7 @@
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
-        "EnumValues": {
-            "0": "False",
-            "1": "True"
-        }
+        "EnumValues": {}
     },
     {
         "DisplayName": "Random Bots Delta",
@@ -826,7 +814,7 @@
         "Description": "Number of bots on Delta in INF, CTF, HTF, PM and TM.",
         "Keywords": "random,bots",
         "FieldName": "Random_Bots_4",
-        "InputType": "checkbox",
+        "InputType": "number",
         "IsFlagArgument": false,
         "ParamFieldName": "Random_Bots_4",
         "IncludeInCommandLine": false,
@@ -835,10 +823,7 @@
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
-        "EnumValues": {
-            "0": "False",
-            "1": "True"
-        }
+        "EnumValues": {}
     },
     {
         "DisplayName": "Logging",
