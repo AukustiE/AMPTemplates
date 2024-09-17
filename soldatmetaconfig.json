@@ -1,0 +1,12 @@
+[
+    {
+        "ConfigFile": "Soldat.ini",
+        "ConfigType": "ini",
+        "AutoMap": true
+    },
+    {
+        "ConfigFile": "Server.ini",
+        "ConfigType": "ini",
+        "AutoMap": true
+    }
+]
