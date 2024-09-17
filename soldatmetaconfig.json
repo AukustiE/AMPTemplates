@@ -2,11 +2,13 @@
     {
         "ConfigFile": "Soldat.ini",
         "ConfigType": "ini",
-        "AutoMap": true
+        "AutoMap": true,
+        "ConfigFormatRegex":"^(?<key>.+?)=(?<value>.*?)$"
     },
     {
         "ConfigFile": "Server.ini",
         "ConfigType": "ini",
-        "AutoMap": true
+        "AutoMap": true,
+        "ConfigFormatRegex":"^(?<key>.+?)=(?<value>.*?)$"
     }
 ]
