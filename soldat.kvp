@@ -70,6 +70,7 @@ Console.UserChatRegex=^$
 Meta.OS=3
 Meta.ConfigManifest=soldatconfig.json
 Meta.MetaConfigManifest=soldatmetaconfig.json
+Meta.AppConfigId=58af3a32-d0df-402c-b16f-9b4c126d8b78
 Meta.ConfigRoot=soldat.kvp
 App.RootDir=./soldat/
 Meta.DisplayImageSource=steam:638490
