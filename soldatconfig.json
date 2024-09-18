@@ -441,8 +441,8 @@
         }
     },
     {
-        "DisplayName": "Survival anti spy cahat",
-        "Category": "Network Settings",
+        "DisplayName": "Survival anti spy chat",
+        "Category": "Game Settings",
         "Description": "Spectators can only use Team Chat in Survival Mode while a round is active.",
         "Keywords": "anti,spy,spectator,chat",
         "FieldName": "AntiSpy_Chat",
