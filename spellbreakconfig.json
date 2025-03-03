@@ -1,0 +1,24 @@
+[
+    {
+        "DisplayName": "Mode",
+        "Category": "Server Settings",
+        "Description": "Game mode",
+        "Keywords": "mode",
+        "FieldName": "game",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "game",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "Solo",
+        "Placeholder": "Solo",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {
+            "Capture": "Dominion",
+            "Solo": "Solo",
+            "Duo": "Duo",
+            "Squad": "Squad"
+        }
+    }
+]

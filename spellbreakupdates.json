@@ -1,0 +1,13 @@
+[
+    {
+        "UpdateStageName": "Download archive",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://drive.google.com/file/d/1IVivqUA1lmNhbyWEPy5n6uPG0kZs-Mbv/view?usp=sharing",
+        "UpdateSourceTarget": "serverfiles",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    }
+]
