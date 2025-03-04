@@ -1,13 +1,33 @@
 [
     {
-        "UpdateStageName": "Download archive",
+        "UpdateStageName": "Create Download Directory",
         "UpdateSourcePlatform": "All",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://drive.google.com/file/d/1IVivqUA1lmNhbyWEPy5n6uPG0kZs-Mbv/view?usp=sharing",
-        "UpdateSourceTarget": "serverfiles",
-        "UnzipUpdateSource": true,
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullBaseDir}}download"
+    },
+    {
+        "UpdateStageName": "Create Spellbreak Server Directory",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullBaseDir}}spellbreak"
+    },
+    {
+        "UpdateStageName": "Spellbreak Community Server Download",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSourceArch": "x86_64",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c \"gdown 1IVivqUA1lmNhbyWEPy5n6uPG0kZs-Mbv -O {{$FullBaseDir}}download\"",
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Spellbreak Community Server Extract",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "ExtractArchive",
+        "UpdateSourceData": "{{$FullBaseDir}}download/spellbreak-community-version-server-windows.zip",
+        "UpdateSourceTarget": "{{$FullBaseDir}}spellbreak",
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
-        "OneShot": true
-    }
+        "SkipOnFailure": false
+    },
 ]
