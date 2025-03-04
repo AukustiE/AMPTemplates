@@ -17,7 +17,7 @@
         "UpdateSourceArch": "x86_64",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"~/.local/bin/gdown 1IVivqUA1lmNhbyWEPy5n6uPG0kZs-Mbv -O {{$FullBaseDir}}download\"",
+        "UpdateSourceArgs": "-c \"gdown 1IVivqUA1lmNhbyWEPy5n6uPG0kZs-Mbv -O {{$FullBaseDir}}download\"",
         "SkipOnFailure": false
     },
     {
