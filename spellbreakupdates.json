@@ -21,12 +21,12 @@
         "SkipOnFailure": false
     },
     {
-        "UpdateStageName": "Spellbreak Community Server Download",
+        "UpdateStageName": "Spellbreak Community Server Extract",
         "UpdateSourcePlatform": "Linux",
         "UpdateSourceArch": "x86_64",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"unzip -qo {{$FullBaseDir}}download/spellbreak-community-version-server-windows.zip -d {{$FullBaseDir}}spellbreak\ && rm -f {{$FullBaseDir}}download/spellbreak-community-version-server-windows.zip\"",
+        "UpdateSourceArgs": "-c \"unzip -qo {{$FullBaseDir}}download/spellbreak-community-version-server-windows.zip -d {{$FullBaseDir}}spellbreak && rm -f {{$FullBaseDir}}download/spellbreak-community-version-server-windows.zip\"",
         "SkipOnFailure": false
     },
 ]
