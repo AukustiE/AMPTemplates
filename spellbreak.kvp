@@ -15,7 +15,7 @@ App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.DisplayName=Spellbreak
-App.CommandLineArgs=?{{$FormattedArgs}}
+App.CommandLineArgs={{$PlatformArgs}}?{{$FormattedArgs}}
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat={0}={1}
 App.CommandLineParameterDelimiter=&
