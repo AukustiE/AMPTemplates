@@ -10,15 +10,13 @@
         "DeleteAfterExtract": true,
         "OneShot": false
     },
-	{
-        "UpdateStageName": "",
+    {
+        "UpdateStageName": "Create missing symlink",
         "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "CreateSymlink",
-        "UpdateSourceData": " /home/amp/.steam/sdk64/",
-        "UpdateSourceArgs": "./battalion-legacy/linux64/steamclient.so",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
+        "UpdateSourceArch": "x86_64",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c \"mkdir -p /home/amp/.steam/sdk64/ && ln -s {{$FullBaseDir}}/linux64/steamclient.so /home/amp/.steam/sdk64/\"",
+        "SkipOnFailure": false
     }
 ]
