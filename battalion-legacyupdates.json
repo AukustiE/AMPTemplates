@@ -9,5 +9,16 @@
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "OneShot": false
+    },
+	{
+        "UpdateStageName": "",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "CreateSymlink",
+        "UpdateSourceData": " /home/amp/.steam/sdk64/",
+        "UpdateSourceArgs": "./battalion-legacy/linux64/steamclient.so",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
     }
 ]
