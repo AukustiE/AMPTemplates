@@ -28,5 +28,5 @@
         "UpdateSourceData": "/bin/bash",
         "UpdateSourceArgs": "-c \"unzip -qo {{$FullBaseDir}}download/spellbreak-community-version-server-windows.zip -d {{$FullBaseDir}}spellbreak && rm -f {{$FullBaseDir}}download/spellbreak-community-version-server-windows.zip\"",
         "SkipOnFailure": false
-    },
+    }
 ]
