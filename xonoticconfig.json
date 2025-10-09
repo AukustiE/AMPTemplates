@@ -64,6 +64,7 @@
     {
         "DisplayName": "Server Release Stream",
         "Category": "Server",
+        "Subcategory": "Version",
         "Description": "Sets Stable or Autobuild (nightly) release stream. Needs \"Server Version\" set as well. NOTE: Update the server after changing this setting!",
         "Keywords": "release,stable,autobuild",
         "FieldName": "ServerReleaseStream",
@@ -80,6 +81,7 @@
     {
         "DisplayName": "Server Version",
         "Category": "Server",
+        "Subcategory": "Version",
         "Description": "[Stable build version](https://xonotic.org/download/) or [Autobuild version](https://beta.xonotic.org/autobuild/) to install. Set \"Server Release Stream\" as appropriate. NOTE: Update the server after changing this setting!",
         "Keywords": "server,version,build",
         "FieldName": "ServerVersion",
@@ -96,6 +98,7 @@
     {
         "DisplayName": "Net address",
         "Category": "Server",
+        "Subcategory": "General",
         "Description": "ONLY change this if you have problems with your server. Specifies the network interface used by the engine.  Set it to one of your internal IPs.",
         "Keywords": "net,address",
         "FieldName": "net_address",
