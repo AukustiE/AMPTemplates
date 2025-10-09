@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "RCON password",
-        "Category": "Management",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "Security",
         "Description": "RCON password, leaving this empty means RCON is disabled. NOTE! RCON password is required for AMP management!",
         "Keywords": "rcon,password",
@@ -20,7 +20,7 @@
     },
     {
         "DisplayName": "RCON restricted password",
-        "Category": "Management",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "Security",
         "Description": "RCON password, the password for a 'restricted' RCON user!",
         "Keywords": "rcon,restricted,password",
@@ -39,7 +39,7 @@
     },
     {
         "DisplayName": "RCON restricted commands",
-        "Category": "Management",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "Security",
         "Description": "Commands allowed by the (stronger) RCON 'restricted' user",
         "Keywords": "rcon,restricted,password",
@@ -63,7 +63,7 @@
 
     {
         "DisplayName": "Server Release Stream",
-        "Category": "Server",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "Version",
         "Description": "Sets Stable or Autobuild (nightly) release stream. Needs \"Server Version\" set as well. NOTE: Update the server after changing this setting!",
         "Keywords": "release,stable,autobuild",
@@ -80,7 +80,7 @@
     },
     {
         "DisplayName": "Server Version",
-        "Category": "Server",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "Version",
         "Description": "[Stable build version](https://xonotic.org/download/) or [Autobuild version](https://beta.xonotic.org/autobuild/) to install. Set \"Server Release Stream\" as appropriate. NOTE: Update the server after changing this setting!",
         "Keywords": "server,version,build",
@@ -97,7 +97,7 @@
 
     {
         "DisplayName": "Net address",
-        "Category": "Server",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "General",
         "Description": "ONLY change this if you have problems with your server. Specifies the network interface used by the engine.  Set it to one of your internal IPs.",
         "Keywords": "net,address",
@@ -116,7 +116,7 @@
     
     {
         "DisplayName": "Public Status",
-        "Category": "Server",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "Security",
         "Description": "Sets the public status of the server and whether it is included in the master server list.",
         "Keywords": "public",
@@ -137,7 +137,7 @@
     },
     {
         "DisplayName": "Hide IPs from Clients",
-        "Category": "Server",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "Security",
         "Description": "If enabled, IP addresses are hidden from \"status\" replies shown to clients.",
         "Keywords": "hide,ip,client",
@@ -156,7 +156,7 @@
 
     {
         "DisplayName": "Max rate",
-        "Category": "Server",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "Performance",
         "Description": "Limits client connections to this rate in bytes/seconds.",
         "Keywords": "max,rate",
@@ -174,7 +174,7 @@
     },
     {
         "DisplayName": "Sever tickrate",
-        "Category": "Server",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "Performance",
         "Description": "0.0166667 for twice as many server frames per second; smoother gameplay but somewhat higher CPU use.",
         "Keywords": "max,rate",
@@ -193,7 +193,7 @@
 
     {
         "DisplayName": "Hostname",
-        "Category": "Server",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "General",
         "Description": "Server display name on the server list (the $g_xonoticversion gets replaced with the current version)",
         "Keywords": "hostname",
@@ -211,7 +211,7 @@
     },
     {
         "DisplayName": "Welcome message",
-        "Category": "Server",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "General",
         "Description": "Displayed on connect - good place for contact info (IRC, forum nick, etc.) so players can reach you when something is wrong with your server",
         "Keywords": "welcome,message",
@@ -229,7 +229,7 @@
     },
     {
         "DisplayName": "Terms of service URL",
-        "Category": "Server",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "General",
         "Description": "URL for the Terms of Service for playing on your server.",
         "Keywords": "terms,of,service,url",
@@ -248,7 +248,7 @@
 
     {
         "DisplayName": "Auto screenshot",
-        "Category": "Server",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "General",
         "Description": "Will force a screenshot for all clients when the map ends.  Useful for competitions or the ladder.",
         "Keywords": "auto,screenshot",
@@ -269,7 +269,8 @@
 
     {
         "DisplayName": "Max players (spectators included)",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Number of player slots on the server (including spectators)",
         "Keywords": "max,players",
         "FieldName": "maxplayers",
@@ -287,7 +288,8 @@
     },
     {
         "DisplayName": "Max players",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Number of player slots on the server",
         "Keywords": "max,players",
         "FieldName": "g_maxplayers",
@@ -306,7 +308,8 @@
 
     {
         "DisplayName": "Start delay",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Delay before the game starts to let players join the server first",
         "Keywords": "start,delay",
         "FieldName": "g_start_delay",
@@ -324,7 +327,8 @@
     },
     {
         "DisplayName": "Map list",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "List of maps to play on the server.  Set to \"\" to autodetect (which would enumerate ALL maps.  Maps that don't support the current game mode will be skipped, so you don't need to remove them here.",
         "Keywords": "map,list",
         "FieldName": "g_maplist",
@@ -341,7 +345,8 @@
     },
     {
         "DisplayName": "Shuffle map list",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Will select random maps each time if set, otherwise always selects the next map out of g_maplist (but then better set g_maplist_mostrecent_count below to prevent repetitive votes)",
         "Keywords": "map,list",
         "FieldName": "g_maplist_shuffle",
@@ -360,7 +365,8 @@
     },
     {
         "DisplayName": "Shuffle map repeat count",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Number of maps that have to be played before a map can be repeated",
         "Keywords": "shuffle,map,repeat,count",
         "FieldName": "g_maplist_mostrecent_count",
@@ -378,7 +384,8 @@
 
     {
         "DisplayName": "Number of votable maps",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Number of maps to vote between.  set to 0 to disable the map voting screen (please enable g_maplist_shuffle above when this is enabled, or votes will be repetitive)",
         "Keywords": "shuffle,map,repeat,count",
         "FieldName": "g_maplist_votable",
@@ -395,7 +402,8 @@
     },
     {
         "DisplayName": "Number of map vote suggestions",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Number of suggestions to accept using the suggestmap command",
         "Keywords": "number,of,map,vote,suggestions",
         "FieldName": "g_maplist_votable_suggestions",
@@ -412,7 +420,8 @@
     },
     {
         "DisplayName": "Show abstain from voting option on map vote",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Whether players be given a \"don't care\" selection in the vote screen.",
         "Keywords": "show,abstain,from,voting,option,on,map,vote",
         "FieldName": "g_maplist_votable_abstain",
@@ -431,7 +440,8 @@
     },
     {
         "DisplayName": "Hide map votes from others",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Hide players votes from others (to prevent'influential' first votes).",
         "Keywords": "hide,map,votes,from,others",
         "FieldName": "g_maplist_votable_nodetail",
@@ -451,7 +461,8 @@
 
     {
         "DisplayName": "Voting",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Whether to enable or disable voting.",
         "Keywords": "voting",
         "FieldName": "sv_vote_call",
@@ -470,7 +481,8 @@
     },
     {
         "DisplayName": "Master selection",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Select how master status can be gained.",
         "Keywords": "master,selection",
         "FieldName": "sv_vote_master",
@@ -489,7 +501,8 @@
     },
     {
         "DisplayName": "Master password",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Master password if master password is enabled.",
         "Keywords": "master,password",
         "FieldName": "sv_vote_master_password",
@@ -505,7 +518,8 @@
     },
     {
         "DisplayName": "Majority vote percentage",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "What percentage of the PLAYERS constitute a majority to win a vote? must be at least 0.5.",
         "Keywords": "majority,vote,percentage",
         "FieldName": "sv_vote_majority_factor",
@@ -524,7 +538,8 @@
     },
     {
         "DisplayName": "Majority vote percentage of voted",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "What percentage of the VOTERS who already voted constitute a majority to win a vote? must be at least 0.5",
         "Keywords": "majority,vote,percentage,of,voted",
         "FieldName": "sv_vote_majority_factor_of_voted",
@@ -543,7 +558,8 @@
     },
     {
         "DisplayName": "Max idle time",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Idle time in seconds after which players will get kicked, set 0 to disable.",
         "Keywords": "max,idle,time",
         "FieldName": "sv_maxidle",
@@ -562,7 +578,8 @@
 
     {
         "DisplayName": "Allow taunting",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Whether taunting is allowed",
         "Keywords": "allow,taunting",
         "FieldName": "sv_taunt",
@@ -581,7 +598,8 @@
     },
     {
         "DisplayName": "Allow auto taunting",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Whethe auto taunting is allowed",
         "Keywords": "allow,auto,taunting",
         "FieldName": "sv_autotaunt",
@@ -601,8 +619,8 @@
 
     {
         "DisplayName": "Time limit",
-        "Category": "Game",
-        "Subcategory": "Limits",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game Limits",
         "Description": "Global time limit for all maps and gametypes (-1=default, 0=unlimited)",
         "Keywords": "time,limit",
         "FieldName": "timelimit_override",
@@ -620,8 +638,8 @@
     },
     {
         "DisplayName": "Frag limit",
-        "Category": "Game",
-        "Subcategory": "Limits",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game Limits",
         "Description": "Global frag/point limit for all maps and gametypes (-1=default, 0=unlimited)",
         "Keywords": "frag,point,limit",
         "FieldName": "fraglimit_override",
@@ -639,8 +657,8 @@
     },
     {
         "DisplayName": "Capture limit",
-        "Category": "Game",
-        "Subcategory": "Limits",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game Limits",
         "Description": "Capture limit for CTF (-1=default, 0=unlimited)",
         "Keywords": "capture,limit",
         "FieldName": "capturelimit_override",
@@ -658,8 +676,8 @@
     },
     {
         "DisplayName": "Domination frag limit",
-        "Category": "Game",
-        "Subcategory": "Limits",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game Limits",
         "Description": "Frag/point limit for DOM (-1=default, 0=unlimited)",
         "Keywords": "domination,frag,point,limit",
         "FieldName": "g_domination_point_limit",
@@ -677,8 +695,8 @@
     },
     {
         "DisplayName": "Keyhunt frag limit",
-        "Category": "Game",
-        "Subcategory": "Limits",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game Limits",
         "Description": "Frag/point limit for KH (-1=default, 0=unlimited)",
         "Keywords": "keyhunt,frag,point,limit",
         "FieldName": "g_keyhunt_point_limit",
@@ -696,8 +714,8 @@
     },
     {
         "DisplayName": "LMS lives",
-        "Category": "Game",
-        "Subcategory": "Limits",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game Limits",
         "Description": "Lives for LMS (-1=default, 0=unlimited)",
         "Keywords": "lms,lives",
         "FieldName": "g_lms_lives_override",
@@ -715,8 +733,8 @@
     },
     {
         "DisplayName": "Nexball goal limit",
-        "Category": "Game",
-        "Subcategory": "Limits",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game Limits",
         "Description": "Goal limit for NEXBALL (-1=default, 0=unlimited)",
         "Keywords": "nexball,goal,limit",
         "FieldName": "g_nexball_goallimit",
@@ -734,8 +752,8 @@
     },
     {
         "DisplayName": "CTF ignore frags",
-        "Category": "Game",
-        "Subcategory": "Limits",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game Limits",
         "Description": "Ignore kills except for flag carrier kills",
         "Keywords": "ctf,ignore,frags",
         "FieldName": "g_ctf_ignore_frags",
@@ -754,8 +772,8 @@
     },
     {
         "DisplayName": "Number of keyhunt teams",
-        "Category": "Game",
-        "Subcategory": "Limits",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game Limits",
         "Description": "Number of TEAMS for key hunt (change this to 2, 3, 4 to set a fixed keyhunt style, -1=default)",
         "Keywords": "keyhunt,teams",
         "FieldName": "g_keyhunt_teams_override",
@@ -772,8 +790,8 @@
     },
     {
         "DisplayName": "Number of keyhunt teams",
-        "Category": "Game",
-        "Subcategory": "Limits",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game Limits",
         "Description": "Number of TEAMS for key hunt (change this to 2, 3, 4 to set a fixed keyhunt style, -1=default)",
         "Keywords": "keyhunt,teams",
         "FieldName": "g_keyhunt_teams_override",
@@ -792,7 +810,8 @@
 
     {
         "DisplayName": "Game mode",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Possible values: dm (deathmatch), tdm (team deathmatch), ctf (capture the flag), ca (clan arena), ft (freeze tag), kh (keyhunt), as (assault), dom (domination), lms (last man standing), ka (keepaway), inv (invasion), ons (onslaught), rc (race), cts (complete the stage), nb (nexball))",
         "Keywords": "game,mode",
         "FieldName": "gametype",
@@ -826,8 +845,8 @@
 
     {
         "DisplayName": "Automatically balance teams",
-        "Category": "Game",
-        "Subcategory": "Limits",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game Limits",
         "Description": "Automatically put players to smaller team",
         "Keywords": "automatically,balance,teams",
         "FieldName": "g_balance_teams",
@@ -846,8 +865,8 @@
     },
     {
         "DisplayName": "Prevent imbalance",
-        "Category": "Game",
-        "Subcategory": "Limits",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game Limits",
         "Description": "Prevent players from switching to the bigger team",
         "Keywords": "automatically,balance,teams",
         "FieldName": "g_balance_teams_prevent_imbalance",
@@ -865,17 +884,9 @@
         }
     },
 
-//sv_defaultcharacter 0	// 1 will force a specific model for all players
-//sv_defaultplayermodel models/player/erebus.iqm	// this model will be used
-//sv_defaultplayerskin 0	// this skin number will be forced for all players
-//sv_defaultplayercolors ""	// you can even force player colors here (16*shirt+pants)
-//g_fullbrightplayers 0	// 1 to make players fullbright
-//g_fullbrightitems 0	// 1 to make items fullbright
-
-
     {
         "DisplayName": "Default character",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "Character",
         "Description": "Force a specific model for all players",
         "Keywords": "default,character",
@@ -895,7 +906,7 @@
     },
     {
         "DisplayName": "Default character model",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "Character",
         "Description": "This model will be used by default",
         "Keywords": "default,character,model",
@@ -913,7 +924,7 @@
     },
     {
         "DisplayName": "Default character skin number",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "Character",
         "Description": "This skin number will be forced for all players",
         "Keywords": "default,character,skin,number",
@@ -931,7 +942,7 @@
     },
     {
         "DisplayName": "Default character color",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "Character",
         "Description": "You can force player colors here (16*shirt+pants)",
         "Keywords": "default,character,color",
@@ -949,7 +960,7 @@
     },
     {
         "DisplayName": "Fullbright players",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "Character",
         "Description": "Make players fullbright",
         "Keywords": "fullbright,players",
@@ -969,7 +980,7 @@
     },
     {
         "DisplayName": "Fullbright items",
-        "Category": "Game",
+        "Category": "Xonotic:stadia_controller:1",
         "Subcategory": "Character",
         "Description": "Make players items",
         "Keywords": "fullbright,items",
@@ -990,7 +1001,8 @@
 
     {
         "DisplayName": "Ban sync address",
-        "Category": "Ban list",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Sync bans using this ban list provider",
         "Keywords": "automatically,balance,teams",
         "FieldName": "g_ban_sync_uri",
@@ -1007,7 +1019,8 @@
     },
     {
         "DisplayName": "Ban sync address",
-        "Category": "Ban list",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Accept bans that were initially set on the server IPs listed here (if not set, your bans are just sent to the sync URIs, but no bans are retrieved from there)",
         "Keywords": "automatically,balance,teams",
         "FieldName": "g_ban_sync_trusted_servers",
@@ -1025,7 +1038,8 @@
     
     {
         "DisplayName": "Bot skill level",
-        "Category": "Bots",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Bot skill level",
         "Keywords": "bot,skill,level",
         "FieldName": "skill",
@@ -1044,7 +1058,8 @@
     },  
     {
         "DisplayName": "Bot fill limit",
-        "Category": "Bots",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Add bots if less then that number of players playing",
         "Keywords": "bot,fill,limit",
         "FieldName": "minplayers",
@@ -1062,7 +1077,8 @@
     },  
     {
         "DisplayName": "Bot fill team limit",
-        "Category": "Bots",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Add bots to each team if less than that number of players playing",
         "Keywords": "bot,fill,team,limit",
         "FieldName": "minplayers_per_team",
@@ -1080,7 +1096,8 @@
     },
     {
         "DisplayName": "Bot name prefix",
-        "Category": "Bots",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Prepend this to all botnames",
         "Keywords": "bot,name,prefix",
         "FieldName": "bot_prefix",
@@ -1097,7 +1114,8 @@
     },
     {
         "DisplayName": "Bot name suffix",
-        "Category": "Bots",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Append this to all botnames",
         "Keywords": "bot,name,suffix",
         "FieldName": "bot_suffix",
@@ -1114,7 +1132,8 @@
     },
     {
         "DisplayName": "Skip maps without waypoints",
-        "Category": "Bots",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Game",
         "Description": "Set this to skip maps without waypoints if there aren't enough players to play without bots",
         "Keywords": "skip,maps,without,waypoints",
         "FieldName": "g_maplist_check_waypoints",
@@ -1133,9 +1152,9 @@
     },
 
     {
-        "DisplayName": "InstaGib",
-        "Category": "Mutators",
-        "Subcategory": "Pure",
+        "DisplayName": "Pure - InstaGib",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Mutators",
         "Description": "InstaGib (single-shot weapon without other weapons)",
         "Keywords": "instagib",
         "FieldName": "g_instagib",
@@ -1153,9 +1172,9 @@
         }
     },
     {
-        "DisplayName": "Weapon-stay mode",
-        "Category": "Mutators",
-        "Subcategory": "Pure",
+        "DisplayName": "Pure - Weapon-stay mode",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Mutators",
         "Description": "Different weapon-stay modes",
         "Keywords": "weapon,stay,mode",
         "FieldName": "g_weapon_stay",
@@ -1175,9 +1194,9 @@
         }
     },
     {
-        "DisplayName": "Powerups",
-        "Category": "Mutators",
-        "Subcategory": "Pure",
+        "DisplayName": "Pure - Powerups",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Mutators",
         "Description": "Powerups",
         "Keywords": "powerups",
         "FieldName": "g_powerups",
@@ -1197,9 +1216,9 @@
         }
     },
     {
-        "DisplayName": "Cloaked",
-        "Category": "Mutators",
-        "Subcategory": "Impure",
+        "DisplayName": "Impure - Cloaked",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Mutators",
         "Description": "Set for transparent hard to see players",
         "Keywords": "cloaked",
         "FieldName": "g_cloaked",
@@ -1217,9 +1236,9 @@
         }
     },
     {
-        "DisplayName": "Grappling hook",
-        "Category": "Mutators",
-        "Subcategory": "Impure",
+        "DisplayName": "Impure - Grappling hook",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Mutators",
         "Description": "Set for to enable the hook (allowed on \"pure\" server in InstaGib)",
         "Keywords": "grapling,hook",
         "FieldName": "g_grappling_hook",
@@ -1237,9 +1256,9 @@
         }
     },
     {
-        "DisplayName": "Jetpack",
-        "Category": "Mutators",
-        "Subcategory": "Impure",
+        "DisplayName": "Impure - Jetpack",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Mutators",
         "Description": "Set to enable the jetpack (allowed on \"pure\" server in InstaGib)",
         "Keywords": "jetpack",
         "FieldName": "g_jetpack",
@@ -1257,9 +1276,9 @@
         }
     },
     {
-        "DisplayName": "Midair",
-        "Category": "Mutators",
-        "Subcategory": "Impure",
+        "DisplayName": "Impure - Midair",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Mutators",
         "Description": "Set to make only midair damage count",
         "Keywords": "midair",
         "FieldName": "g_midair",
@@ -1277,9 +1296,9 @@
         }
     },
     {
-        "DisplayName": "Vampire",
-        "Category": "Mutators",
-        "Subcategory": "Impure",
+        "DisplayName": "Impure - Vampire",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Mutators",
         "Description": "Set to 1 to give players the damage they cause as health",
         "Keywords": "vampire",
         "FieldName": "g_vampire",
@@ -1297,9 +1316,9 @@
         }
     },
     {
-        "DisplayName": "Gravity",
-        "Category": "Mutators",
-        "Subcategory": "Impure",
+        "DisplayName": "Impure - Gravity",
+        "Category": "Xonotic:stadia_controller:1",
+        "Subcategory": "Mutators",
         "Description": "For low gravity, set this somewhere between 50 and 400",
         "Keywords": "gravity",
         "FieldName": "sv_gravity",
