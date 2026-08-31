@@ -891,7 +891,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "sv_defaultplayermodel",
         "IncludeInCommandLine": false,
-        "DefaultValue": "",
+        "DefaultValue": " models/player/erebus.iqm",
         "Placeholder": "models/player/erebus.iqm",
         "Suffix": "",
         "Hidden": false,
